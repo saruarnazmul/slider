@@ -1,58 +1,19 @@
-    body {
-      background: #fff;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color:#000;
-      margin: 0;
-      padding: 0;
-    }
-    .swiper-container {
-      width: 100%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
-    .swiper-slide {
-      background-position: center;
-      background-size: cover;
-      width: 600px;
-      height: 350px;
-      background-color: #4287f5;
-      border-radius: 15px;
-    }
+.slider{
+	background-color: lightblue;
+	padding: 25px;
+}
+.carousel .carousel-item{
+	width: 500px;
+	height: 400px;
+}
+
     .circle{
       width: 150px;
       height: 150px;
       border-radius: 50%;
-      background: #fff;
-      margin: 15px auto;
+      background-color: white;
+      margin:  0 auto;
     }
-    .slide-content{
-    width: 60%;
-    margin: 0 auto;
-    color: #fff;
+    .slide-content a{
+    	margin-left: 10rem;
     }
-    .slide-content a i{
-      color: #fff !important;
-      font-size: 18px;
-    }
-    .swiper-slide-prev{
-      transition-duration: 0ms;
-    transform: translate3d(0px, 0px, -50rem) rotateX(0deg) rotateY(0deg) !important;
-    z-index: 0;
-    }
-    .swiper-slide-next{
-      transition-duration: 0ms;
-    transform: translate3d(0px, 0px, -50rem) rotateX(0deg) rotateY(0deg) !important;
-    z-index: 0;
-    }
-    .swiper-slide-active{
-      -webkit-box-shadow: -1px 0px 10px 0px rgba(0,0,0,0.75);
--moz-box-shadow: -1px 0px 10px 0px rgba(0,0,0,0.75);
-box-shadow: -1px 0px 10px 0px rgba(0,0,0,0.75);
-    }
-    .swiper-container-3d .swiper-slide-shadow-left {
-    background-image: none;
-}
-.swiper-container-3d .swiper-slide-shadow-right {
-    background-image: none;
-}
